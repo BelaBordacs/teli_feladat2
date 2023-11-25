@@ -1,7 +1,35 @@
+body {
+    background-image: url(/kepek/hatter.jpg);
+}
+
+.head h1 {
+    height: 7rem;
+    background-image: url(/kepek/fejlec.jpg);
+}
+
+.content {
+    max-width: 80%;
+background-color: aliceblue;
+
+}
+
 tbody tr:nth-child(odd) {
     background-color: lightblue;
 }
 
 tr {
-    
+
+}
+
+.buttons a {
+    display: block;
+}
+
+.body_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.foot {
+    background-color: blue;
 }
