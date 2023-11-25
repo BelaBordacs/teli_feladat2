@@ -4,6 +4,7 @@ body {
 
 .head h1 {
     height: 7rem;
+    text-align: center;
     background-image: url(/kepek/fejlec.jpg);
 }
 
