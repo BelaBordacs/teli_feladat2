@@ -2,36 +2,18 @@ body {
     background-image: url(/kepek/hatter.jpg);
 }
 
+.body_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .head h1 {
     height: 7rem;
     background-image: url(/kepek/fejlec.jpg);
     margin: 0px;
     color: white;
     text-align: center;
-}
-
-.content {
-    max-width: 80%;
-    margin: auto;
-background-color: aliceblue;
-
-}
-
-pre {
-    text-align: left;
-    margin-left: 0px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: lightblue;
-}
-
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
+}   
 
 .buttons a {
     display: block;
@@ -52,10 +34,23 @@ table {
     padding-inline: auto;
 }
 
-.body_grid {
+.galeria {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 4fr);
 }
+
+.galeria img {
+    margin: auto;
+    max-width: 200px;
+    max-height: 200px;
+    transform: rotate(-7deg);
+    
+}
+
+.rotate{
+    transform: rotate(7deg);
+}
+
 
 .foot {
     background-color: blue;
@@ -64,8 +59,3 @@ table {
     font-weight:100;
 }
 
-
-
-.vers {
-    border: 2px solid rgb(186, 186, 186);
-}
